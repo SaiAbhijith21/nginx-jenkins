@@ -5,8 +5,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/SaiAbhijith21/nginx-jenkins.git|g' Jenkinsfile
-
+                git branch: 'main', url: 'https://github.com/SaiAbhijith21/nginx-jenkins.git'
             }
         }
 
